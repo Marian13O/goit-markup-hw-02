@@ -1,7 +1,7 @@
 html {
   font-family: Roboto, Raleway, sans-serif;
 }
-.navbar ul ul {
+.navbar ul li {
   text-decoration: none;
   display: inline-block;
 }
