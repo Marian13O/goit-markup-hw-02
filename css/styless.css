@@ -18,7 +18,7 @@ ul {
   font-style: Raleway, sans-serif;
   font-weight: 700;
   size: 26px;
-  line-height: 30.52px;
+  line-height: 218%;
   letter-spacing: 3%;
   text-decoration: none;
 }
@@ -41,6 +41,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 2%;
+  line-height: 117.214%;
   color: var(--element-color);
 }
 .button-color {
@@ -49,7 +50,7 @@ ul {
 .contacts a {
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  line-height: 2%;
+  line-height: 117.214%;
   letter-spacing: 2%;
   color: var(--text-color);
 }
@@ -63,7 +64,7 @@ ul {
 .first-section {
   font-weight: 900;
   size: 44px;
-  line-height: 44px;
+  line-height: 428.571%;
   letter-spacing: 6%;
   background-color: var(--section-color);
   color: #ffff;
@@ -74,7 +75,7 @@ ul {
   background-color: var(--hover-color);
   font-weight: 700;
   size: 16px;
-  line-height: 30px;
+  line-height: 214.286%;
 }
 /* Team Qualities */
 .description-title {
@@ -86,14 +87,14 @@ ul {
 .description-text {
   font-weight: 400;
   size: 14px;
-  line-height: 24px;
+  line-height: 117.214%;
   color: var(--text-color);
 }
 /* What we do */
 .section-title {
   font-weight: 700;
   size: 36px;
-  line-height: 42.19px;
+  line-height: 301.357%;
   text-align: center;
   color: var(--element-color);
 }
@@ -104,12 +105,14 @@ ul {
 .team-member-name {
   font-weight: 500;
   size: 16px;
+  line-height: 133.929%;
   text-align: center;
   color: var(--element-color);
 }
 .team-job {
   font-weight: 400;
   size: 16px;
+  line-height: 133.929%;
   color: var(--text-color);
   text-align: center;
 }
