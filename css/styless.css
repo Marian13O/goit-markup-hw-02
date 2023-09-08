@@ -1,7 +1,124 @@
-html {
-  font-family: Roboto, Raleway, sans-serif;
+:root {
+  --section-color: #2f303a;
+  --element-color: #212121;
+  --text-color: #757575;
+  --hover-color: #2196f3;
 }
-.navbar ul li {
+body {
+  background-color: #ffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+ul {
+  list-style-type: none;
+}
+/* logo styling */
+.logo {
+  font-style: Raleway, sans-serif;
+  font-weight: 700;
+  size: 26px;
+  line-height: 30.52px;
+  letter-spacing: 3%;
   text-decoration: none;
-  display: inline-block;
+}
+
+.logo-first {
+  color: var(--hover-color);
+  letter-spacing: 3%;
+}
+.logo-second {
+  color: #000000;
+  letter-spacing: 3%;
+}
+.logo-second-down {
+  color: #ffffff;
+  letter-spacing: 3%;
+}
+.main-navigation a {
+  text-decoration: none;
+  font-style: Roboto, sams-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2%;
+  color: var(--element-color);
+}
+.button-color {
+  color: var(--hover-color);
+}
+.contacts a {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 2%;
+  letter-spacing: 2%;
+  color: var(--text-color);
+}
+.contacts a:hover {
+  color: var(--hover-color);
+}
+.global-header .main-navigation a:hover {
+  color: var(--hover-color);
+}
+/* title */
+.first-section {
+  font-weight: 900;
+  size: 44px;
+  line-height: 44px;
+  letter-spacing: 6%;
+  background-color: var(--section-color);
+  color: #ffff;
+  text-align: center;
+}
+.request-button {
+  color: #ffff;
+  background-color: var(--hover-color);
+  font-weight: 700;
+  size: 16px;
+  line-height: 30px;
+}
+/* Team Qualities */
+.description-title {
+  font-weight: 700;
+  size: 14px;
+  line-height: 16.41px;
+  color: var(--element-color);
+}
+.description-text {
+  font-weight: 400;
+  size: 14px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+/* What we do */
+.section-title {
+  font-weight: 700;
+  size: 36px;
+  line-height: 42.19px;
+  text-align: center;
+  color: var(--element-color);
+}
+/* Our Team */
+.footer-main {
+  background-color: #f5f4fa;
+}
+.team-member-name {
+  font-weight: 500;
+  size: 16px;
+  text-align: center;
+  color: var(--element-color);
+}
+.team-job {
+  font-weight: 400;
+  size: 16px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--section-color);
+}
+.info a {
+  font-weight: 400;
+  size: 14px;
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 0.6);
 }
