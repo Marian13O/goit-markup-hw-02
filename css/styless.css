@@ -57,6 +57,9 @@ ul {
 .contacts a:hover {
   color: var(--hover-color);
 }
+.first-section {
+  height: 600px;
+}
 .global-header .main-navigation a:hover {
   color: var(--hover-color);
 }
@@ -127,17 +130,25 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 /* PORTOFOLIO */
-.filter-button li {
+.portfolio-buttons {
   font-weight: 500;
   font-size: 16px;
-  line-height: 185.714%;
-  color: var(--element-color);
+  line-height: 1.85;
+  font-family: inherit;
+}
+.portfolio-buttons:hover {
+  background-color: var(--hover-color);
+  color: white;
   cursor: pointer;
 }
+
+/* Styling buttons */
 .styling-button {
   background-color: var(--hover-color);
   color: #ffffff;
 }
+
+/* Styling Portofolio Section */
 .project-title {
   font-weight: 700;
   font-size: 18px;
