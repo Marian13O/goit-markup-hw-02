@@ -44,10 +44,11 @@ ul {
   line-height: 117.214%;
   color: var(--element-color);
 }
-.button-color {
+.button-color:hover {
   color: var(--hover-color);
+  cursor: pointer;
 }
-.contacts a {
+.button-color:active .contacts a {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   line-height: 117.214%;
@@ -75,11 +76,13 @@ ul {
 }
 .request-button {
   color: #ffff;
-  background-color: var(--hover-color);
+  background-color: #188ce8;
   font-weight: 700;
   size: 16px;
   line-height: 214.286%;
+  cursor: pointer;
 }
+.request-button:active
 /* Team Qualities */
 .description-title {
   font-weight: 700;
@@ -141,6 +144,7 @@ ul {
   color: white;
   cursor: pointer;
 }
+.portfolio-buttons:active
 
 /* Styling buttons */
 .styling-button {
