@@ -44,22 +44,19 @@ ul {
   line-height: 117.214%;
   color: var(--element-color);
 }
-.button-color:hover {
-  color: #188ce8;
-  cursor: pointer;
-}
-.button-color:active .contacts a {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  line-height: 117.214%;
-  letter-spacing: 2%;
+
+.current {
   color: var(--hover-color);
 }
-.nav-link:active .nav-link:focus .nav-link:hover .contacts a:hover {
-  color: var(--hover-color);
-}
-.contact-link:active .contact-link:hover {
-  color: var(--hover-color);
+.global-header-nav a:active,
+.global-header-nav a:hover,
+.global-header-nav a:focus,
+.global-header-nav a:visited:active,
+.global-header-nav a:visited:hover,
+.global-header-nav a:visited:focus,
+.contact-link:active,
+.contact-link:hover {
+  color: var(--element-color);
 }
 .first-section {
   height: 600px;
@@ -79,12 +76,17 @@ ul {
 }
 .request-button {
   color: #ffff;
-  background-color: #188ce8;
+  background-color: var(--hover-color);
   font-weight: 700;
   size: 16px;
   line-height: 214.286%;
   cursor: pointer;
+  font-family: inherit;
 }
+.request-button:hover {
+  background-color: #188ce8;
+}
+.request-button:focus
 .request-button:active
 /* Team Qualities */
 .description-title {
