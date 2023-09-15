@@ -285,11 +285,30 @@ ul {
 }
 
 /* PORTOFOLIO */
+.portofolio-size {
+  width: 1200px;
+  margin-left: 215px;
+  margin-top: 94px;
+}
+.filter-button ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0px 200px 48px 0px;
+  border-radius: 4px;
+}
+
 .portfolio-buttons {
   font-weight: 500;
+  height: 38px;
   font-size: 16px;
   line-height: 1.85;
   font-family: inherit;
+  box-shadow: 0px 2px 2px 0px #0000001f;
+
+  box-shadow: 0px 1px 2px 0px #00000014;
+
+  box-shadow: 0px 3px 1px 0px #0000001a;
 }
 .portfolio-buttons:hover {
   background-color: var(--hover-color);
@@ -319,4 +338,10 @@ ul {
   font-size: 16px;
   line-height: 214.286%;
   color: var(--text-color);
+}
+.product-store ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0px 0px 94px 0px;
 }
