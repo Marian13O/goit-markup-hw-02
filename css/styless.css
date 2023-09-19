@@ -306,10 +306,21 @@ ul {
   margin: 0px 200px 48px 0px;
   border-radius: 4px;
 }
+.button-container {
+  width: 516px;
+  height: 38px;
+  top: 174px;
+  left: 542px;
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 56px 215px;
+  border-radius: 4px;
+}
 
 .portfolio-buttons {
   font-weight: 500;
   height: 38px;
+  width: 120px;
   font-size: 16px;
   line-height: 1.85;
   font-family: inherit;
@@ -350,7 +361,11 @@ ul {
 }
 .product-store ul {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  flex-wrap: wrap-reverse;
+  gap: 30px;
   margin: 0px 0px 94px 0px;
+}
+.project-item {
+  border-bottom: 1px solid #eeeeee;
+  padding: 0px 25px;
 }
